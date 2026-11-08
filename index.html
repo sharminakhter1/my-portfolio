@@ -5,114 +5,134 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sharmin Akhter | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
 
-  <header class="header">
-    <div class="container nav-container">
-      <a href="#" class="logo">Portfolio<span>.</span></a>
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <div class="glow-bg-top"></div>
+
+  <header class="hero-section">
+    <div class="container hero-layout">
+      <div class="hero-text">
+        <p class="intro-greeting">I am Sharmin Akhter</p>
+        <h1 class="main-title">Computer Science &<br><span>Web Designer</span></h1>
+        <p class="bio-desc">
+          Undergraduate CSE student based in Dhaka, blending code with clean user interfaces. Aspiring researcher planning for higher studies abroad, with a passion for continuous learning, problem solving, and modern design.
+        </p>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/sharmin-akhter-1b8706406" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/sharminakhter1" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#services" class="btn-cv">Download CV <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=80" alt="Sharmin Akhter" class="profile-img" />
+        </div>
+      </div>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container hero-content">
-      <p class="tagline">Welcome to my space</p>
-      <h1>Hi, I'm <span>Sharmin Akhter</span></h1>
-      <p class="intro-text">
-        Computer Science & Engineering graduate passionate about technology, web design, and data-driven solutions.
-      </p>
-      <div class="hero-btns">
-        <a href="#projects" class="btn primary-btn">View My Work</a>
-        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <h2>B.Sc.</h2>
+        <p>In Computer Science & Eng.</p>
+      </div>
+      <div class="stat-item">
+        <h2>10+</h2>
+        <p>Academic & Web Projects</p>
+      </div>
+      <div class="stat-item">
+        <h2>Dhaka</h2>
+        <p>Current Location</p>
+      </div>
+      <div class="stat-item">
+        <h2>Future</h2>
+        <p>Study Abroad Aspirant</p>
       </div>
     </div>
   </section>
 
-  <section id="about" class="section">
+  <!-- Services Section -->
+  <section id="services" class="services-section">
     <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-card">
-        <p>
-          I am a dedicated Computer Science student based in Dhaka, Bangladesh. I enjoy turning complex problems into simple, beautiful, and intuitive designs. Currently focusing on building clean, accessible, and structured digital experiences while exploring core engineering concepts.
-        </p>
-        <p style="margin-top: 1rem;">
-          Looking ahead, my goal is to pursue higher education abroad to broaden my academic perspective and technical expertise. I genuinely love being immersed in my studies and constantly learning new things. Outside of academics, I enjoy cooking, and whenever I need to recharge, you will most likely find me enjoying a good, peaceful sleep!
-        </p>
+      <div class="section-header">
+        <h2>My Quality Services</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card active-card">
+          <span class="card-num">01</span>
+          <h3>Web Development</h3>
+          <p>
+            Building clean, lightweight, and fully responsive websites using modern semantic HTML5 and clean CSS layouts without unnecessary bloat.
+          </p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+        </div>
+
+        <div class="service-card">
+          <span class="card-num">02</span>
+          <h3>UI/UX Design</h3>
+          <p>
+            Crafting visually pleasing, modern, and user-centric interfaces with attention to typography, colors, and accessibility standards.
+          </p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-down-right"></i></div>
+        </div>
+
+        <div class="service-card">
+          <span class="card-num">03</span>
+          <h3>Data Analytics</h3>
+          <p>
+            Working with data structuring, exploratory analytics, spreadsheet summaries, and understanding core analytical metrics.
+          </p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-down-right"></i></div>
+        </div>
+
+        <div class="service-card">
+          <span class="card-num">04</span>
+          <h3>Academic Research</h3>
+          <p>
+            Staying immersed in computer engineering concepts, preparing for higher education abroad, and exploring modern computing fields.
+          </p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-down-right"></i></div>
+        </div>
+
+        <div class="service-card">
+          <span class="card-num">05</span>
+          <h3>Clean Documentation</h3>
+          <p>
+            Creating structured project repositories, version tracking with Git/GitHub, and systematic project documentation.
+          </p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-down-right"></i></div>
+        </div>
+
+        <div class="service-card">
+          <span class="card-num">06</span>
+          <h3>Personal Pursuits</h3>
+          <p>
+            Passionate home cook experimenting with flavorful traditional curries, and maintaining an energetic, well-balanced lifestyle.
+          </p>
+          <div class="card-arrow"><i class="fa-solid fa-arrow-down-right"></i></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="skills" class="section bg-alt">
-    <div class="container">
-      <h2 class="section-title">Core Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-pill">HTML5</div>
-        <div class="skill-pill">CSS3 / Flexbox & Grid</div>
-        <div class="skill-pill">Responsive Web Design</div>
-        <div class="skill-pill">Git & GitHub</div>
-        <div class="skill-pill">Data Analytics Fundamentals</div>
-        <div class="skill-pill">Problem Solving</div>
-      </div>
-    </div>
-  </section>
-  <section id="projects" class="section">
-    <div class="container">
-      <h2 class="section-title">Featured Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-badge">HTML & CSS</div>
-          <h3>Personal Portfolio Website</h3>
-          <p>
-            A lightweight, semantic, and fully responsive static portfolio built without any external scripts or libraries.
-          </p>
-          <a href="#" class="project-link">Source Code &rarr;</a>
-        </div>
-        <div class="project-card">
-          <div class="project-badge">Coursework</div>
-          <h3>Database Management Portal</h3>
-          <p>
-            An academic project covering structured database design, schema optimization, and entity relationship models.
-          </p>
-          <a href="#" class="project-link">View Details &rarr;</a>
-        </div>
-        <div class="project-card">
-          <div class="project-badge">Analytics</div>
-          <h3>Data Insights & Reporting</h3>
-          <p>
-            Data visualization and exploratory analysis focused on trends, data cleaning, and actionable metrics.
-          </p>
-          <a href="#" class="project-link">View Details &rarr;</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section bg-alt">
-    <div class="container text-center">
-      <h2 class="section-title">Let's Connect</h2>
-      <p class="contact-desc">
-        Feel free to reach out for collaborations, discussions, or opportunities.
-      </p>
-      <div class="contact-links">
-        <a href="mailto:example@gmail.com" class="btn primary-btn">Send an Email</a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn secondary-btn">LinkedIn Profile</a>
-      </div>
-    </div>
-  </section>
- 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container text-center">
-      <p>&copy; 2026 Sharmin Akhter. Built with plain HTML & CSS.</p>
+      <p>&copy; 2026 Sharmin Akhter. All rights reserved.</p>
     </div>
   </footer>
 
